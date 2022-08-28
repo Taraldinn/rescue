@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+    @apply
+    text-gray-900
+    w-full
+    h-40
+    min-h-full
+    rounded
+    flex
+    flex-col
+    items-center
+    justify-center
+    border
+    border-gray-200
+    p-6;
+
+
+}
+
+.box span {
+    @apply
+    text-xl
+    tracking-wide
+    text-center
+
+}
+.box-hover{
+    @apply
+    hover:border
+    hover:border-2
+    hover:border-red-500;
+}
